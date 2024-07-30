@@ -1,4 +1,4 @@
-module.exports = (req, res) => {
+export default (req, res) => {
   const { title, diagramSource } = req.body;
   
   // Simulate rendering the diagram
