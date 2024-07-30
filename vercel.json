@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/get_DiagramSyntaxDocumentation",
+      "dest": "api/get_DiagramSyntaxDocumentation.js"
+    },
+    {
+      "src": "/api/post_RenderDiagram",
+      "dest": "api/post_RenderDiagram.js"
+    }
+  ]
+}
