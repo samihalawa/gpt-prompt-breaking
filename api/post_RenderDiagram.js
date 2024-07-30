@@ -2,7 +2,7 @@ export default (req, res) => {
   const { title, diagramSource } = req.body;
   
   // Simulate rendering the diagram
-  const diagramLink = "https://diagrams.example.com/rendered-diagram";
+  const diagramLink = "https://gptabsolut.vercel.app/rendered-diagram";
   const fullscreenLink = `${diagramLink}/fullscreen`;
   const pngLink = `${diagramLink}/png`;
 
