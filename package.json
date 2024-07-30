@@ -1,0 +1,9 @@
+{
+  "name": "diagrams-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vercel": "^21.3.3"
+  }
+}
